@@ -1,0 +1,118 @@
+.Central{
+    text-align: center;
+    margin: 0%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-shadow:  1px 1px 0 #7e6118, 
+    -1px -1px 0 #7e6118, 
+    1px -1px 0 #7e6118,  
+    -1px 1px 0 #7e6118;
+}
+
+.logofia{
+    float:left;
+    background: transparent;
+}
+
+.logoformula{
+    float: right;
+    width: 110px;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 600px;
+    background-color: white;
+}
+
+tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+}
+
+.cabecalho{
+    background-color: black;
+    color: #7e6118;
+}
+
+body{
+    background-image: url(https://pixelz.cc/wp-content/uploads/2019/02/haas-vf-19-f1-uhd-4k-wallpaper.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+
+.float{
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.tabela1{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.tabela2{
+    background-color: black;
+    color: #7e6118;
+}
+
+.left{
+    float: left;
+    height: 2500px;
+    margin-bottom: 50px;
+
+}
+.right{
+    float: right;
+    margin: 5px;
+}
+
+.tabela3{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.australia{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.gpaustralia{
+    background-color: rgb(68, 64, 64);
+    color: #000000;
+    text-align: center;
+}
+
+.china{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.gpchina{
+    background-color: rgb(68, 64, 64);
+    color: #000000;
+    text-align: center;
+}
+
+.gp1{
+    background-color: black;
+    color: #7e6118;
+}
+
+.gp2{
+    background-color: black;
+    color: #7e6118;
+}
+
+.container{
+    float: right;
+    margin: 10px;
+}
