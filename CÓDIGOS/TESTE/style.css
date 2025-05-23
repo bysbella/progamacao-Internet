@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+p{
+    font-family: cursive;
+}
+
+ul{
+    font-family: cursive;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family:'UnifrakturCook', cursive;
+    text-shadow: 0 0 5px rgb(182, 50, 235), 0 0 10px rgb(138, 48, 221);
+    font-size: 50px;
+    text-align: center;
+}
+
+.ato1{
+    color: rgb(241, 241, 241);
+    text-shadow: 0 0 5px rgb(29, 151, 46), 0 0 10px rgb(26, 138, 50);
+}
+
+.ato2{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(63, 44, 231), 0 0 10px rgb(50, 60, 207);
+}
+
+.ato3{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgb(236, 22, 22);
+}
+
+.ato4{
+    color: rgb(218, 214, 214);
+    text-shadow: 0 0 5px rgb(147, 147, 153), 0 0 10px rgb(123, 123, 129);
+}
+
+.ato5{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 173, 19), 0 0 10px rgb(255, 177, 32);
+}
+
+b{
+    color:rgb(255, 255, 255); 
+    text-shadow: 0 0 5px rgb(182, 50, 235), 0 0 10px rgb(138, 48, 221);
+}
+
+P{
+    font-size: 20px;
+}
+
+ul{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 25px;
+} 

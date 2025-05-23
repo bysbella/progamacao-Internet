@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    overflow-x: hidden;
+
+}
+body {
+    padding: 2rem 5rem;
+    width: 100vw;
+    height: 100%;
+    background-color: #000000;
+}
+.logo img{
+    max-width: 8rem;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+}
+.background:nth-child(1) {
+    background: #000000
+    url("img/wallpapersden.com_skul-the-hero-slayer-2021_1920x1080.jpg")
+    no-repeat center center/cover;
+}
+.background:nth-child(2) {
+    background: #000000
+    url("img/wp7423277.webp")
+    no-repeat center center/cover;
+}
+.background:nth-child(3) {
+    background: #000000
+    url("img/background.png")
+    no-repeat center center/cover;
+}
+.background:nth-child(4) {
+    background: #000000
+    url("img/wallpapersden.com_skul-the-hero-slayer-2021_1920x1080.jpg")
+    no-repeat center center/cover;
+}
+
+.background:nth-child(7) {
+    background: #000000
+    url("img/wallpaper\ isa.webp")
+    no-repeat center center/cover;
+}
+.background.active{
+    visibility: visible;
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+.content {
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 0.5rem;
+    padding: 1rem 15rem;
+    position: relative;
+}
+.listamenu {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+li > a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+li > a:hover {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff,
+    0 0 30px #fff, 0 0 40px #fff;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+.navlink.active{
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff,
+    0 0 30px #fff, 0 0 40px #fff;
+}
+.maincontent {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 5rem;
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+.maincontent.active {
+    display: flex;
+    
+}
+
+.tNPC{
+    font-size: 30px;
+    margin: 1rem;
+    margin-left: 3rem;
+    text-shadow: 1px 1px 5px rebeccapurple, 0 0 10px rebeccapurple, 0 0 15px rebeccapurple, 0 0 20px rebeccapurple;
+}
+
+.infoNPC{
+    display: flex;
+    margin: 1rem;
+    border-bottom: 1px solid rebeccapurple;
+    border-top: 1px solid rebeccapurple;
+    padding: 10px;
+}
+
+.infoNPC1{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.if{
+    font-size: 40px;
+    color: rebeccapurple;
+}
+
+/*ISABELLA*/
+.tituloisa{
+    color: rgb(255, 255, 255);
+    font-family:'UnifrakturCook', cursive;
+    text-shadow: 0 0 5px rgb(182, 50, 235), 0 0 10px rebeccapurple;
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-family: cursive;
+}
+
+.lista{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.linhatitulo{    
+    color: rebeccapurple;
+}
+
+.ato1{
+    border-bottom: 1px solid rgb(176, 59, 180);
+    box-shadow:  0 0 5px rgb(155, 9, 143),
+    0 0 10px rgb(172, 101, 182),
+    0 0 10px rgb(199, 83, 199),
+    0 0 10px rgb(145, 9, 138); 
+    padding: 5px;
+    color: rgb(241, 241, 241);
+    text-shadow: 0 0 5px rgb(185, 64, 179), 0 0 10px rgb(175, 67, 166);
+    margin-bottom: 20px;
+    margin-top: 30px;
+    background-color: rgba(247, 5, 255, 0.192);
+}
+
+.ato2{
+    border-bottom: 1px solid rgb(63, 44, 231);
+    box-shadow: 0 0 5px rgb(63, 44, 231),
+    0 0 10px rgb(63, 44, 231),
+    0 0 10px rgb(63, 44, 231),
+    0 0 10px rgb(63, 44, 231); 
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(63, 44, 231), 0 0 10px rgb(50, 60, 207);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(25, 0, 252, 0.103);
+}
+
+.ato3{
+    border-bottom: 1px solid rgb(107, 101, 101);
+    box-shadow: 0 0 5px rgb(122, 115, 115),
+    0 0 10px rgb(122, 119, 119),
+    0 0 10px rgb(124, 122, 122),
+    0 0 10px rgb(80, 78, 78); 
+    padding: 5px;
+    color: rgb(194, 187, 187);
+    text-shadow: 0 0 5px rgb(90, 86, 86), 0 0 10px rgb(126, 121, 121);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(119, 114, 114, 0.349);
+}
+
+.ato4{
+    border-bottom: 1px solid rgb(153, 224, 241);
+    box-shadow: 0 0 5px rgb(113, 172, 180),
+    0 0 10px rgb(118, 214, 226),
+    0 0 10px rgb(83, 170, 185),
+    0 0 10px rgb(65, 211, 236); 
+    padding: 5px;
+    color: rgb(185, 190, 190);
+    text-shadow: 0 0 5px rgb(18, 143, 201), 0 0 10px rgb(70, 172, 231);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(24, 176, 236, 0.308);
+}
+
+.ato5{
+    border-bottom: 1px solid rgb(255, 173, 19);
+    box-shadow:0 0 5px rgb(255, 173, 19),
+    0 0 10px rgb(255, 173, 19),
+    0 0 10px rgb(255, 173, 19),
+    0 0 10px rgb(255, 173, 19); 
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 173, 19), 0 0 10px rgb(255, 177, 32);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(252, 134, 0, 0.103);
+}
+
+
+.ato6{
+    border-bottom: 1px solid rgb(0, 155, 142);
+    box-shadow:0 0 5px rgb(2, 145, 133),
+    0 0 10px rgb(17, 128, 122),
+    0 0 10px rgb(3, 134, 123),
+    0 0 10px rgb(8, 182, 153); 
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(19, 255, 184), 0 0 10px rgb(4, 148, 129);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(17, 109, 104, 0.301);
+}
+
+b{
+    color:rgb(255, 255, 255); 
+    text-shadow: 0 0 5px rgb(182, 50, 235), 0 0 10px rgb(138, 48, 221);
+}
+
+P{
+    font-size: 20px;
+   
+}
+
+h2{
+    font-size: 25px;
+} 
+
+.topicos{
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+/*ISABELLA*/
